@@ -32,6 +32,8 @@ As an alternativeto wheels tracks could be used.
 
 1x resistor 200 ohm aproximately though this is fairly flexible.
 
+optional: button
+
 ### Power
 battery for raspberry pi and motor. The power for the raspberry pi can be provided by a portable phone charger. The power for the motors could be 
 provided by a battery box for AA batteries or similar or a portable phone charger.
