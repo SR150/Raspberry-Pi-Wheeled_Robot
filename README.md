@@ -1,6 +1,8 @@
 # cubsRobot
 
-This is a basic robot I built for cubs to program in python. It uses 2 independently controlled motors for movement. Those motors are controlled using a magnet on each wheel with a reed switch to calibrate motor speed.
+This is a basic robot I built for cubs to program in python. It uses 2 independently controlled motors for movement. Those motors are controlled using a magnet on each wheel with a reed switch to calibrate motor speed. This allows the use of DCC stepper motors.
+
+see hardware file for construction details.
 
 ## Interface
 get a robot object from the robotFactory object.
