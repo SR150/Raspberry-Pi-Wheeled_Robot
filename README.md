@@ -27,6 +27,8 @@ button.py is a simple program to run main.py when a button is pressed. I set it 
 an example program is in robot/main.py
 
 
+
+
 ## Hardware
 to build the robot you will need:
 
@@ -45,3 +47,20 @@ motor controler for 2 motors
 1 resistor
 battery for raspberry pi and motor
 wood or plastic to mount all components.
+
+## Instalation
+Download the code and run. Main.py has an example program you can run.
+
+### Running programs off a USB stick
+Place the contents of Robot on the USB stick.
+
+Determine the path to the usb stick by navigating to the USB stick via command line.
+
+Copy the path to the USB stick into the variable path in button.py
+
+(Optional) Set button.py to run on startup by running the command sudo nano /etc/rc.local then adding
+
+sudo python3 (path to button.py)&
+
+to the file.
+
